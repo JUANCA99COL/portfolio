@@ -1,0 +1,74 @@
+$primary : #B48C6B;
+// $secondary : ;
+// $info : ;
+// $danger: ;
+// $warning:;
+// $success: ;
+// $jumbotron-bg  :;
+$headings-font-family :'Montserrat', sans-serif;
+
+
+@import "../bootstrap-4.5.3/scss/bootstrap.scss";
+@import "home";
+@import "buttons";
+@import "text";
+
+
+@media (min-width:415px) and (max-width:1024px){
+  .ul-con {
+     display: none;
+   }
+
+   .for-icons {
+     width: 100%;
+   }
+
+   .menu {
+     float: right;
+   }
+}
+
+@media (min-width:300px) and (max-width:414px){
+	.ul-con {
+     display: none;
+   }
+
+	.for-icons {
+	 	width: 100%;
+	}
+
+	.menu {
+		float: right;
+	}
+
+	.subHeaders {
+	   margin-left: 0px;
+		 margin-top: 23px;
+	}
+
+	.mockUps3 {
+	    width: 80%;
+	    margin: 10%;
+	    margin-top: 56px;
+	}
+
+	.mockUps {
+	    width: 80%;
+	    margin: 10%;
+	    margin-top: 50px;
+	}
+
+	.para-contact {
+		font-size: 15px;
+	}
+
+  .info-abt {
+    font-size: 18px;
+  }
+
+  .abt-me {
+    font-size: 35px;
+  }
+
+
+}
