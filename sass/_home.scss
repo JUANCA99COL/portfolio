@@ -10,7 +10,7 @@ html {
 }
 
 .for-icons {
-	width: 20%;
+	width: 100%;
 }
 
 .ul-con {
@@ -43,7 +43,6 @@ html {
 .logo {
 	width: 90px;
 	margin: 5px;
-	margin-top: 13px;
 }
 
 
@@ -111,9 +110,9 @@ html {
 
 }
 
-.web:hover {
-	background: orange;
-}
+// .web:hover {
+// 	background: orange;
+// }
 
 
 .mockUps {
@@ -126,7 +125,11 @@ html {
 	margin: 10%;
 }
 
-.mockUps,.mockUps3:hover {
+.mockUps3:hover {
+	border: 3px solid orange;
+}
+
+.mockUps:hover {
 	border: 3px solid orange;
 }
 
@@ -186,46 +189,7 @@ top: 15px;
 right: 35px;
 }
 
-
-// @media only screen and (max-width: 1040px) and (min-width: 320px)  {
-//
-//
-// 	.lol, .lol2 {
-// 		width: 270px;
-// 	}
-//
-
-
-//
-// 	.mockContainer h2, p {
-// 		text-align: center;
-// 	}
-//
-// 	.mockContainer {
-// 		height: 450px;
-// 	}
-//
-// 	.myButtons {
-// 		margin: auto;
-// 		display: block;
-// 	}
-//
-//
-//
-// 	.mockFinalContainer {
-// 		height: 450px;
-// 	}
-//
-//
-// 	.mockUps3 {
-// 		margin-top: 98px;
-// 	}
-//
-// 	.for-icons {
-// 		width: 100%;
-// 	}
-//
-//
-//
-//
-// }
+.myProfile {
+	width: 100%;
+	height: auto;
+}

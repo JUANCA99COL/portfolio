@@ -1,6 +1,6 @@
-$primary : #B48C6B;
-// $secondary : ;
-// $info : ;
+$primary : #B48C6B; //light brown
+$secondary : #CCE4FC; //light-blue
+$info : #FCBC94;  //light orange
 // $danger: ;
 // $warning:;
 // $success: ;
@@ -14,32 +14,8 @@ $headings-font-family :'Montserrat', sans-serif;
 @import "text";
 
 
-@media (min-width:415px) and (max-width:1024px){
-  .ul-con {
-     display: none;
-   }
-
-   .for-icons {
-     width: 100%;
-   }
-
-   .menu {
-     float: right;
-   }
-}
-
 @media (min-width:300px) and (max-width:414px){
-	.ul-con {
-     display: none;
-   }
 
-	.for-icons {
-	 	width: 100%;
-	}
-
-	.menu {
-		float: right;
-	}
 
 	.subHeaders {
 	   margin-left: 0px;
@@ -59,7 +35,7 @@ $headings-font-family :'Montserrat', sans-serif;
 	}
 
 	.para-contact {
-		font-size: 15px;
+		font-size: 25px;
 	}
 
   .info-abt {
