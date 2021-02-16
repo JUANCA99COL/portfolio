@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 $primary : #B48C6B; //light brown
 $secondary : #CCE4FC; //light-blue
 $info : #FCBC94;  //light orange
-// $danger: ;
-// $warning:;
-// $success: ;
-// $jumbotron-bg  :;
-$headings-font-family :'Montserrat', sans-serif;
 
 
-// @import "../bootstrap-4.5.2/scss/bootstrap.scss";
+h1, h2, h3 {
+	font-family: 'Lobster', cursive;
+}
+
+
 @import "home";
 @import "buttons";
 @import "text";
@@ -21,6 +22,7 @@ $headings-font-family :'Montserrat', sans-serif;
 	   margin-left: 0px;
 		 margin-top: 23px;
 	}
+
 
 	.mockUps3 {
 	    width: 80%;

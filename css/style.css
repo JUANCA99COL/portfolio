@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+h1, h2, h3 {
+  font-family: 'Lobster', cursive; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -56,8 +60,7 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; }
+  transform: translate(-50%, -50%); }
 
 .lol {
   /* border: 1px solid blue; */
